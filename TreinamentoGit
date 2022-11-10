@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TreinamentoGit</title>
+</head>
+<body>
+    <h1>Treinamento Git</h1>
+    <p>Formas de interação com GitHub</p>
+    
+    <h2>Quais os comandos para configurar usuário e email no git?</h2>
+    <p>Os comandos são:</p>
+    <p>1. git config --global user.email <br>
+       2. git config --global user.name</p>
+    
+    <h2>Qual a diferença entre git e github?</h2>
+    <p><b>Git: </b> Git  é um sistema de controle de versões distribuído,<br>
+         usado principalmente no desenvolvimento de software,<br>
+         mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.<br>
+    </p>
+    <p><b>GitHub: </b>GitHub é uma plataforma de hospedagem de código-fonte e arquivos
+         com controle de versão usando o Git. Ele permite que programadores,
+          utilitários ou qualquer usuário cadastrado na plataforma contribuam 
+          em projetos privados e/ou Open Source de qualquer lugar do mundo. <br></p>
+    
+    <h2>O que faz o comando commit?</h2>
+    <p>Esse comando salva uma alteração no arquivo. </p>
+    
+    <h2>O que faz o comando push?</h2>
+    <p>usado para enviar o conteúdo do repositório local para um repositório remoto.<br></p>
+    
+    <h2>O que faz o comando pull?</h2>
+    <p>O comando git pull primeiro executa o git fetch , que baixa o conteúdo do repositório remoto especificado.
+         Então, o git merge é executado e faz merge das refs e dos heads do conteúdo remoto para o novo commit de merge local.</p>
+</body>
+</html>
